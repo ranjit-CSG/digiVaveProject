@@ -16,10 +16,10 @@ const UserTable = () => {
     <div>
       <Grid container alignItems="center">
         <Grid item xs={12} sm={6}>
-          <h4 style={{ textAlign: "left" }}>List Of Users</h4>
+          <h4 style={{ textAlign: "left"}}>List Of Users</h4>
         </Grid>
         <Grid item xs={12} sm={6}>
-          <Grid container spacing={2}>
+          <Grid container spacing={2} sx={{ textAlign:"right"}} >
             <Grid item xs={12}>
               <Button
                 variant="contained"
@@ -31,7 +31,7 @@ const UserTable = () => {
                   textTransform: "none",
                 }}
               >
-                Create New Project
+                Create New User
               </Button>
             </Grid>
             <Grid item xs={12}>

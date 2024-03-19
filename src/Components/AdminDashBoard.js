@@ -28,7 +28,7 @@ export default function AdminDashBoard() {
       }}
     >
       <Box sx={{ textAlign: 'left', marginLeft: 2, width: '100%' }}>
-        <Typography variant="body1" sx={{ mb: 2 }}>
+        <Typography variant="body1" sx={{ mb: 2 , fontWeight:'700'}}>
           Welcome Admin
         </Typography>
       </Box>
@@ -41,6 +41,7 @@ export default function AdminDashBoard() {
             sx={{
               '& .MuiTab-root': {
                 fontSize: '0.8rem', // Adjust tab label font size
+                fontWeight:'700'
               },
               '& .Mui-selected': {
                 borderBottom: '3px solid blue', // Adjust width of underline when tab is selected

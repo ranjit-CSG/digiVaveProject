@@ -18,7 +18,7 @@ const ProjectTable = () => {
         <Grid item xs={12} sm={6}>
           <h4 style={{ textAlign: 'left' }}>List Of Projects</h4>
         </Grid>
-        <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={6} sx={{ textAlign:"right"}}>
           <Grid container spacing={2}>
             <Grid item xs={12}>
               <Button variant="contained" color="primary" fullWidth sx={{ width: '50%', backgroundColor:'#116587',textTransform: 'none' }}>
