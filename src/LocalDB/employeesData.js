@@ -37,30 +37,7 @@ const employees = [
         "role": "Analyst",
         "status": "Active"
       },
-      {
-        "name": "Daniel Taylor",
-        "email": "daniel.taylor@example.com",
-        "role": "Tester",
-        "status": "Inactive"
-      },
-      {
-        "name": "Olivia Anderson",
-        "email": "olivia.anderson@example.com",
-        "role": "Consultant",
-        "status": "Active"
-      },
-      {
-        "name": "William Thomas",
-        "email": "william.thomas@example.com",
-        "role": "Engineer",
-        "status": "Active"
-      },
-      {
-        "name": "Ava Jackson",
-        "email": "ava.jackson@example.com",
-        "role": "Supervisor",
-        "status": "Inactive"
-      }
+     
   ];
   
   export default employees;
