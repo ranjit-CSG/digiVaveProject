@@ -1,14 +1,14 @@
 .App {
   text-align: center;
-  display: grid;
-  grid-template-rows: auto 1fr auto; /* Set grid layout */
-  height: 100vh;
+  scroll-behavior: smooth;
+  
 
 }
 body {
   background-color: #f5f5f5; /* Smoke white color */
   margin: 0; /* Remove default margin */
   scroll-behavior: smooth;
+  overflow: auto;
 }
 
 .App-logo {

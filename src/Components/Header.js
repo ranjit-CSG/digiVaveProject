@@ -23,7 +23,8 @@ function Header() {
         alignItems: "center",
         minHeight: "50px",
         backgroundColor: "white",
-        zIndex:3
+        zIndex:3,
+        maxHeight:'10px'
       }}
     >
       <Container maxWidth="xl">
