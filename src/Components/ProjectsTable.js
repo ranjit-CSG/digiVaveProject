@@ -135,7 +135,7 @@ const ProjectTable = ({ onShowNewProjectForm }) => {
                 Create New Project
               </Button>
             </Grid>
-            <Grid item xs={12}>
+            {/* <Grid item xs={12}>
                 <TextField
                 id="search"
                 label="Search"
@@ -144,7 +144,7 @@ const ProjectTable = ({ onShowNewProjectForm }) => {
                 fullWidth
                 sx={{ width: "40%" }}
               />
-            </Grid>
+            </Grid> */}
           </Grid>
         </Grid>
       </Grid>

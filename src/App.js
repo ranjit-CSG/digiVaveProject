@@ -1,7 +1,7 @@
 // import './App.css'; // Import your CSS file if applicable
 // import Header from './Components/Header.js';
 // import Footer from './Components/Footer.js';
-// import AdminDashBoard from './Components/AdminDashboard.js';
+// import AdminDashBoard from './Components/AdminDashBoard.js'
 
 // function App() {
 //   return (
@@ -23,7 +23,7 @@ import './App.css'; // Import your CSS file if applicable
 import Header from './Components/Header.js';
 import Footer from './Components/Footer.js';
 import Login from './Components/Login/Login.js';
-import AdminDashboard from './Components/AdminDashboard.js'; // Import the AdminDashboard component
+import AdminDashboard from './Components/AdminDashBoard.js'
 
 function App() {
   return (

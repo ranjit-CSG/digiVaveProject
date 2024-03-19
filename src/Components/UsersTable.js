@@ -124,7 +124,7 @@ import employees from "../LocalDB/employeesData";
 
 const UserTable = ({ onShowNewUserForm }) => {
   return (
-    <div>
+    <div style={{display:"flex", height:'80vh', flexDirection:"column"}}>
       <Grid container alignItems="center">
         <Grid item xs={12} sm={6}>
           <h4 style={{ textAlign: "left" }}>List Of Users</h4>
@@ -146,7 +146,7 @@ const UserTable = ({ onShowNewUserForm }) => {
                 Create New User
               </Button>
             </Grid>
-            <Grid item xs={12}>
+            {/* <Grid item xs={12}>
                 <TextField
                 id="search"
                 label="Search"
@@ -155,7 +155,7 @@ const UserTable = ({ onShowNewUserForm }) => {
                 fullWidth
                 sx={{ width: "40%" }}
               />
-            </Grid>
+            </Grid> */}
           </Grid>
         </Grid>
       </Grid>

@@ -62,6 +62,7 @@
 
 
 
+
 import React, { useState } from 'react';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
@@ -73,6 +74,7 @@ import UserTable from './UsersTable';
 import ProjectTable from './ProjectsTable'
 import NewUserAddForm from './NewUserAddForm/NewUserAddForm'; // Import NewUserAddForm component
 import NewProjectAddForm from './NewProjectAddForm'
+import { display } from '@mui/system';
 export default function AdminDashboard() {
   const [value, setValue] = useState('1');
   const [showNewUserForm, setShowNewUserForm] = useState(false); // State to toggle NewUserAddForm visibility
@@ -131,7 +133,7 @@ export default function AdminDashboard() {
             <Tab label="Projects" value="2" />
           </TabList>
         </Box>
-        <TabPanel value="1">
+        <TabPanel value="1" >
           {showNewUserForm ? <NewUserAddForm /> : <UserTable onShowNewUserForm={handleShowNewUserForm} />}
         </TabPanel>
         <TabPanel value="2">
